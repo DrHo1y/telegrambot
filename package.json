@@ -1,0 +1,21 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "description": "test telegram bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "author": "DrHoly",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.2",
+    "mongoose": "^5.10.12",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "nodemon": "^2.0.6"
+  }
+}
